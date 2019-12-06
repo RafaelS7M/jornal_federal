@@ -1,0 +1,23 @@
+body{
+    background-color: teal;
+    color: white;
+}
+
+#noticias{
+    color: black;
+
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin: 20px;
+}
+
+.card div a{
+    background-color: #49bfb3;
+    border: #49bfb3;
+}

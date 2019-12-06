@@ -1,0 +1,1 @@
+web: gunicorn jornal_federal_project.wsgi --log-file -

@@ -1,0 +1,18 @@
+@import "../../dist/css/bootstrap.min.css";
+
+body{
+    display: flex;
+    justify-content: center;
+
+    padding-top: 150px;
+}
+
+#botaum{
+    background-color: teal;
+    border-color: teal;
+}
+
+a {
+    background-color: teal;
+    color: teal;
+}

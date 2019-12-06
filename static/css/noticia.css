@@ -1,0 +1,24 @@
+body{
+    background-color: teal;
+    color: white;
+}
+
+.container{
+    display: flex; 
+    flex-direction: column;
+}
+
+.container img{
+    width: 500px;
+}
+
+.fotos img{
+    width: 350px;
+    height: 240px;
+}
+
+.fotos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
