@@ -19,7 +19,7 @@ from paginas.views import HomePageView, NoticiaPageView, MatriculaPageView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', HomePageView.as_view() , name ='home'),
+    path('', MatriculaPageView.as_view() , name ='matricula'),
     path('noticia/', NoticiaPageView.as_view() , name ='noticia'),
-    path('matricula/', MatriculaPageView.as_view() , name ='matricula'),
+    path('home/', HomePageView.as_view() , name ='home'),
 ]
